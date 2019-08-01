@@ -1,0 +1,172 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+body{
+
+	font-family: tahoma;
+
+}
+.hero
+{
+    position: absolute;
+	width: 1140px;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/hero.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1
+{
+	color: white;
+}
+.main-nav{
+	list-style: none;
+	float: right;
+	margin-top: 60px;
+}
+.main-nav li{
+	display: inline-block;
+	margin-left: 20px
+}
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 90%
+	font-weight:bold;
+
+}
+.main-nav li a:hover{
+	color: #e67e22;
+	border-bottom:10px sold #e67e22;
+	transition:all 0.5s ease-in;
+	padding: 20px 0;
+}
+
+.logo img{
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+}
+
+.button-awesome{
+	border: 10px ;
+	padding: 10px 30px;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-right: 20px;
+
+}
+.button-awesome a:hover{
+	color: #e67e22;
+	list-style: none;
+	border: 10px;
+
+}*/
+#ali{
+	color: #e67e22;
+	list-style: none;
+	border: 10px;
+
+
+}
+.copy{
+
+	width: 70%;
+	margin-left: 15%;
+}
+
+
+.features h3 {
+
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+.arranging{
+
+	text-align: justify;
+
+	}
+
+.meal-showcase{
+
+	list-style: none;
+	width: 100%;
+}
+.meal-showcase li{
+
+	display: block;
+	width: 25%;
+	float:left;
+}
+.meal-photo{
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+.meal-photo img
+{
+
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: all 0.5s;
+}
+.meal-photo img:hover{
+
+	transform: scale(1.05);
+}
+.meal{
+
+	margin-top: 5%;
+}
+
+.mobile h3 {
+
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+.pic img{
+
+width: 60%;
+margin-left: 90px;
+margin-top: 5%;
+}
+.works-step {
+	margin-top: 5%;
+}
+.works-step div{
+
+	border: 1px solid #e67e22;
+	display: inline-block;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.cities{
+
+	margin: 100px;
+}
+
+.cities img {
+
+width: 100%;
+margin-top: 20%;
+
+}
